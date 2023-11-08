@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTTPS Client + WebSocket Server</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>HTTPS Client + WebSocket Server</h1>
+  <div class="keyword-section">
+    <label for="keyword-input">Keyword:</label>
+    <input type="text" id="keyword-input">
+    <button id="submit-btn">Submit</button>
+  </div>
+  <div class="url-list-section">
+    <h2>URL List:</h2>
+    <select id="url-select"></select>
+  </div>
+  <div class="download-section">
+    <button id="download-btn">Download File</button>
+    <button id="show-file-btn">Show File</button>
+  </div>
+  <div class="content-viewer-section">
+    <h2>Content Viewer:</h2>
+    <iframe id="content-viewer"></iframe>
+  </div>
+  <progress id="download-progress" value="0" max="100"></progress>
+  <script src="script.js"></script>
+</body>
+</html>
